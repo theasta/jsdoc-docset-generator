@@ -14,5 +14,4 @@ node_modules
 # Tmp folders
 tmp/**
 
-jsdoc-dash.conf.json
-templates/old.js
+test/dest/

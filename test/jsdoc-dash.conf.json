@@ -1,0 +1,8 @@
+{
+  "docSetRoot": "../tmp/",
+  "docSetName": "MyDocSetJs",
+  "docSetIdentifier": "MyDocSet",
+  "docSetPlatformFamily": "MyDocSet",
+  "icon": "fixtures/icon.png",
+  "documentation": "fixtures/doc"
+}

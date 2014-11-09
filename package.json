@@ -1,16 +1,24 @@
 {
-  "name": "dash-jsdoc",
-  "description": "jsDoc Dash DocSet Generator",
+  "name": "jsdoc-docset-generator",
+  "description": "JSDoc DocSet Generator (for Dash)",
   "author": "Alexandrine Boissière",
   "version": "0.0.1",
+  "main": "lib/docset-generator",
   "dependencies": {
+    "extended-fs": "^0.3.3",
     "lodash-template-stream": "^1.0.0",
-    "mkdirp": "^0.5.0",
-    "ncp": "^1.0.1",
-    "rimraf": "^2.2.8",
     "sequelize": "^2.0.0-rc2",
     "sqlite3": "^3.0.2"
   },
+  "scripts": {
+    "test": "cd test && node test.js"
+  },
+  "keywords": [
+    "jsdoc",
+    "jsdoc3",
+    "dash",
+    "docset"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/theasta/jsdoc-dash.git"

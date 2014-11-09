@@ -1,5 +1,6 @@
-# jsDoc Dash DocSet Generator
+# JSDoc DocSet Generator
 
+Generates a DocSet from JSDoc documentation. This DocSet can be used with the Dasp App.
 
 ## Configuration
 
