@@ -21,9 +21,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/theasta/jsdoc-dash.git"
+    "url": "git://github.com/theasta/jsdoc-docset-generator.git"
   },
   "bugs": {
-    "url": "https://github.com/theasta/jsdoc-dash/issues"
+    "url": "https://github.com/theasta/jsdoc-docset-generator/issues"
   }
 }
