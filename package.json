@@ -8,7 +8,7 @@
     "extended-fs": "^0.3.3",
     "lodash-template-stream": "^1.0.0",
     "q": "^1.1.1",
-    "sequelize": "^2.0.0-rc2",
+    "sequelize": "^3.6.0",
     "sqlite3": "^3.0.2"
   },
   "scripts": {
