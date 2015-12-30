@@ -2,7 +2,7 @@
   "name": "jsdoc-docset-generator",
   "description": "JSDoc DocSet Generator",
   "author": "Alexandrine Boissière",
-  "version": "0.0.3",
+  "version": "0.1.0-0",
   "main": "lib/docset-generator",
   "dependencies": {
     "extended-fs": "^0.3.3",
