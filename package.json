@@ -1,15 +1,14 @@
 {
   "name": "jsdoc-docset-generator",
-  "description": "JSDoc DocSet Generator (for Dash)",
+  "description": "JSDoc DocSet Generator",
   "author": "Alexandrine Boissière",
   "version": "0.0.3",
   "main": "lib/docset-generator",
   "dependencies": {
     "extended-fs": "^0.3.3",
     "lodash-template-stream": "^1.0.0",
-    "q": "^1.1.1",
-    "sequelize": "^2.0.0-rc2",
-    "sqlite3": "^3.0.2"
+    "sequelize": "^2.0.4",
+    "sqlite3": "^3.0.5"
   },
   "scripts": {
     "test": "cd test && node test.js"
