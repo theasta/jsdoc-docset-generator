@@ -1,18 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+export default function ({identifier, name, platformFamily, index}) {
+  return `<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string><%= docSetIdentifier %></string>
+	<string>${identifier}</string>
 	<key>CFBundleName</key>
-	<string><%= docSetName %></string>
+	<string>${name}</string>
 	<key>DocSetPlatformFamily</key>
-	<string><%= docSetPlatformFamily %></string>
+	<string>${platformFamily}</string>
 	<key>dashIndexFilePath</key>
-	<string>index.html</string>
+	<string>${index}</string>
 	<key>DashDocSetFamily</key>
 	<string>dashtoc</string>
 	<key>isDashDocset</key>
 	<true/>
 </dict>
 </plist>
+`;
+};

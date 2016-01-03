@@ -1,19 +1,25 @@
-var Generator = require('../lib/docset-generator');
+var DocSetGenerator = require('../lib/docset-generator').DocSetGenerator;
 
-var config = require('./jsdoc-dash.conf.json');
-
-
-var entries = [
+var config = {
+  destination: "../tmp/",
+  name: "MyDocSetJs",
+  identifier: "MyDocSet",
+  platformFamily: "MyDocSet",
+  icon: "fixtures/icon.png",
+  documentation: "fixtures/doc",
+  entries: [
     {
-        "name": 'some/module',
-        "type": 'Module',
-        "path": 'some.module.html'
+      name: 'some/module',
+      type: 'Module',
+      path: 'some.module.html'
     },
     {
-        "name": 'some/other/module',
-        "type": 'Module',
-        "path": 'some.other.module.html'
+      name: 'some/other/module',
+      type: 'Module',
+      path: 'some.other.module.html'
     }
-];
+  ]};
 
-new Generator(config, entries);
+
+var generator = new DocSetGenerator(config);
+generator.create();
