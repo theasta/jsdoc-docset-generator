@@ -1,4 +1,6 @@
-# JSDoc DocSet Generator
+# [DEPRECATED] JSDoc DocSet Generator
+
+USE [docset-generator](https://github.com/theasta/docset-generator) instead.
 
 Generates a DocSet from html documentation.
 This generator has been primarly created to be used in correlation with jsDoc and the dash application.

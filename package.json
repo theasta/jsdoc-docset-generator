@@ -1,6 +1,6 @@
 {
   "name": "jsdoc-docset-generator",
-  "description": "JSDoc DocSet Generator",
+  "description": "[Deprecated] Use docset-generator instead.",
   "author": "Alexandrine Boissière",
   "license": "ISC",
   "version": "0.1.0",
